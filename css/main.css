@@ -87,10 +87,21 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/******************** GLOBAL STYLES ********************/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+  background-color: #152A3E;
+  color: #EEEFDA;
+}
+
+a {
+  color: #EEEFDA;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -100,6 +111,18 @@ h1, h2, h3, h4, h5, h6 {
 p, li {
   font-family: 'Cousine', monospace;
 }
+
+.highlight {
+  background-color: #E9B14C;
+  color: #152A3E;
+}
+
+/******************** Mobile Styles ********************/
+
+
+
+
+
 
 /* ==========================================================================
    Helper classes
