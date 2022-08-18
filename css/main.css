@@ -102,14 +102,26 @@ body {
 
 a {
   color: #EEEFDA;
+  text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lexend Tera', sans-serif;
+  font-weight: 500;
 }
 
 p, li {
   font-family: 'Cousine', monospace;
+}
+
+img {
+  width: 100%;
+  margin: 1.25rem 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
 }
 
 .highlight {
@@ -117,9 +129,46 @@ p, li {
   color: #152A3E;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
+.whisper {
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 100;
+  color: #B4C7D9;
+}
+
+.content-wrapper {
+    margin: 0 1.75rem;
+}
+
 /******************** Mobile Styles ********************/
 
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  text-transform: uppercase;
+  margin-top: 2rem;
+}
 
+.hero-area h1 {
+  margin-top: 4rem;
+}
+
+.hero-area p {
+  margin: 2rem 0;
+}
+
+.projects-area {
+  margin-top: 5rem;
+}
+
+.projects-area h1 {
+  margin: 0;
+}
 
 
 
