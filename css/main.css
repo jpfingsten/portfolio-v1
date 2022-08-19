@@ -116,7 +116,7 @@ p, li {
 
 img {
   width: 100%;
-  margin: 1.25rem 0;
+  margin: 1.75rem 0;
 }
 
 .main {
@@ -141,7 +141,11 @@ img {
 }
 
 .content-wrapper {
-    margin: 0 1.75rem;
+  margin: 0 1.75rem;
+}
+
+.attention {
+  outline: 1px solid red;
 }
 
 /******************** Mobile Styles ********************/
@@ -170,7 +174,36 @@ nav ul {
   margin: 0;
 }
 
+.projects-area img {
+  -webkit-box-shadow: 10px 10px 30px 5px rgba(0,0,0,0.6);
+  box-shadow: 10px 10px 30px 5px rgba(0,0,0,0.6);
+}
 
+.project-header {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.project-header i {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  color:  #244A6F;
+  transition-duration: 500ms;
+}
+
+.project-header i:hover {
+  color: #EEEFDA;
+  transition-duration: 500ms;
+}
+
+.project-description {
+  margin: 2.5rem 0;
+}
+
+.skills-tools {
+  margin-top: 2rem;
+}
 
 
 /* ==========================================================================
@@ -346,4 +379,3 @@ nav ul {
     page-break-after: avoid;
   }
 }
-
