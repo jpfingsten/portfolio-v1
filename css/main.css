@@ -263,6 +263,11 @@ nav .emphasize {
   background-color: #C6B4DE;
 }
 
+.skill-category ul .cert {
+  border: 3px #E9B14C solid;
+  border-radius: 0;
+}
+
 .about {
   margin-top: 4rem;
 }
