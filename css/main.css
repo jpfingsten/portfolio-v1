@@ -205,6 +205,53 @@ nav ul {
   margin-top: 2rem;
 }
 
+.skills-area h1 {
+  margin: 1.5rem 0 0 0;
+}
+
+.skill-category {
+  margin: 2.5rem 0;
+}
+
+.skill-category ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+}
+
+.skill-category li {
+  padding: .5rem 1rem;
+  margin: .25rem;
+  border-radius: 20px;
+}
+
+.language, .skill, .tool, .process, .design {
+  color: #000;
+}
+
+.language {
+  background-color: #CAC691;
+}
+
+.skill {
+  background-color: #F7E8E8;
+}
+
+.tool {
+  background-color: #EEEFDA;
+}
+
+.process {
+  background-color: #B3C26A;
+}
+
+.design {
+  background-color: #C6B4DE;
+}
+
+
+
 
 /* ==========================================================================
    Helper classes
