@@ -185,6 +185,10 @@ nav ul {
   align-items: baseline;
 }
 
+.project-header h2 {
+    width: 100%;
+}
+
 .project-header i {
   font-size: 1.5rem;
   margin-left: 1rem;
@@ -215,14 +219,15 @@ nav ul {
 
 .skill-category ul {
   display: flex;
-  flex-direction: column;
+  flex-flow: row wrap;
   align-items: center;
   list-style: none;
+  margin-top: 1rem;
 }
 
 .skill-category li {
   padding: .5rem 1rem;
-  margin: .25rem;
+  margin: .5rem;
   border-radius: 20px;
 }
 
@@ -250,7 +255,9 @@ nav ul {
   background-color: #C6B4DE;
 }
 
-
+.about img {
+    border: 15px white solid;
+}
 
 
 /* ==========================================================================
