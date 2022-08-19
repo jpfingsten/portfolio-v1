@@ -405,8 +405,245 @@ nav .emphasize {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+/******************** Tablet Styles ********************/
+
+@media only screen and (min-width: 768px) {
   /* Style adjustments for viewports that meet the condition */
+}
+
+.content-wrapper {
+  margin: 0 4rem;
+}
+
+nav ul {
+
+}
+
+nav li {
+
+}
+
+.hero-area h1 {
+
+}
+
+.hero-area p {
+
+}
+
+.projects-area {
+
+}
+
+.projects-area h1 {
+
+}
+
+.project-header {
+
+}
+
+.project-header h2 {
+
+}
+
+.project-header i {
+
+}
+
+.project-header i:hover {
+
+}
+
+.project-description {
+
+}
+
+.project-skills-tools {
+
+}
+
+.skills-area h1 {
+
+}
+
+.skill-category {
+
+}
+
+.skill-category ul {
+
+}
+
+.skill-category li {
+
+}
+
+.language, .skill, .tool, .process, .design {
+
+}
+
+.language {
+
+}
+
+.skill {
+
+}
+
+.tool {
+
+}
+
+.process {
+
+}
+
+.design {
+
+}
+
+.skill-category ul .cert {
+
+}
+
+.about {
+
+}
+
+.about img {
+
+}
+
+.about h2 {
+
+}
+
+.contact h1 {
+
+}
+
+.contact-area {
+
+}
+
+.contact-area .content-wrapper {
+
+}
+
+.social {
+
+}
+
+.social i {
+
+}
+
+.copyright {
+
+}
+
+/******************** Desktop Styles ********************/
+
+@media only screen and (min-width: 1024px) {
+  /* Style adjustments for viewports that meet the condition */
+}
+
+nav ul {
+}
+
+nav li {
+}
+
+
+.hero-area h1 {
+}
+
+.hero-area p {
+}
+
+.projects-area {
+}
+
+.projects-area h1 {
+}
+
+.project-header {
+}
+
+.project-header h2 {
+}
+
+.project-header i {
+}
+
+.project-header i:hover {
+}
+
+.project-description {
+}
+
+.project-skills-tools {
+}
+
+.skills-area h1 {
+}
+
+.skill-category {
+}
+
+.skill-category ul {
+}
+
+.skill-category li {
+}
+
+.language, .skill, .tool, .process, .design {
+}
+
+.language {
+}
+
+.skill {
+}
+
+.tool {
+}
+
+.process {
+}
+
+.design {
+}
+
+.skill-category ul .cert {
+}
+
+.about {
+}
+
+.about img {
+}
+
+.about h2 {
+}
+
+.contact h1 {
+}
+
+.contact-area {
+}
+
+.contact-area .content-wrapper {
+}
+
+.social {
+}
+
+.social i {
+}
+
+.copyright {
 }
 
 @media print,
