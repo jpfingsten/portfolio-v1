@@ -89,10 +89,14 @@ textarea {
 
 /******************** GLOBAL STYLES ********************/
 
+.attention {
+  outline: 1px solid red;
+}
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -144,10 +148,6 @@ img {
   margin: 0 1.75rem;
 }
 
-.attention {
-  outline: 1px solid red;
-}
-
 /******************** Mobile Styles ********************/
 
 nav ul {
@@ -157,6 +157,10 @@ nav ul {
   list-style: none;
   text-transform: uppercase;
   margin-top: 2rem;
+}
+
+nav li {
+  font-size: .9rem;
 }
 
 nav .emphasize {
