@@ -264,8 +264,9 @@ nav .emphasize {
 }
 
 .skill-category ul .cert {
-  border: 3px #E9B14C solid;
+  border: 3px #244A6F solid;
   border-radius: 0;
+  width: 100%;
 }
 
 .about {
