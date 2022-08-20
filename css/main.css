@@ -431,10 +431,6 @@ nav .emphasize {
     width: 80%;
   }
 
-  nav li {
-
-  }
-
   .hero-area h1 {
     margin-top: 5rem;
   }
@@ -462,76 +458,12 @@ nav .emphasize {
     width: 48%;
   }
 
-  .project-header {
-
-  }
-
-  .project-header h2 {
-
-  }
-
-  .project-header i {
-
-  }
-
-  .project-header i:hover {
-
-  }
-
-  .project-description {
-
-  }
-
-  .project-skills-tools {
-
-  }
-
   .skills-area h1, .skills-area h2 {
     text-align: center;
   }
 
-  .skill-category {
-
-  }
-
   .skill-category ul {
     justify-content: center;
-  }
-
-  .skill-category li {
-
-  }
-
-  .language, .skill, .tool, .process, .design {
-
-  }
-
-  .language {
-
-  }
-
-  .skill {
-
-  }
-
-  .tool {
-
-  }
-
-  .process {
-
-  }
-
-  .design {
-
-  }
-
-  .skill-category ul .cert {
-
-  }
-
-  .about {
-
   }
 
   .about .content-wrapper {
@@ -549,14 +481,6 @@ nav .emphasize {
     width: 50%;
   }
 
-  .about h2 {
-
-  }
-
-  .contact h1 {
-
-  }
-
   .contact-area {
     width: 100%;
   }
@@ -569,14 +493,6 @@ nav .emphasize {
     width: 25%;
     justify-content: space-between;
   }
-
-  .social i {
-
-  }
-
-  .copyright {
-
-  }
 }
 
 
@@ -584,104 +500,102 @@ nav .emphasize {
 /******************** Desktop Styles ********************/
 
 @media only screen and (min-width: 1024px) {
-  /* Style adjustments for viewports that meet the condition */
-}
+  nav ul {
+  }
 
-nav ul {
-}
-
-nav li {
-}
+  nav li {
+  }
 
 
-.hero-area h1 {
-}
+  .hero-area h1 {
+  }
 
-.hero-area p {
-}
+  .hero-area p {
+  }
 
-.projects-area {
-}
+  .projects-area {
+  }
 
-.projects-area h1 {
-}
+  .projects-area h1 {
+  }
 
-.project-header {
-}
+  .project-header {
+  }
 
-.project-header h2 {
-}
+  .project-header h2 {
+  }
 
-.project-header i {
-}
+  .project-header i {
+  }
 
-.project-header i:hover {
-}
+  .project-header i:hover {
+  }
 
-.project-description {
-}
+  .project-description {
+  }
 
-.project-skills-tools {
-}
+  .project-skills-tools {
+  }
 
-.skills-area h1 {
-}
+  .skills-area h1 {
+  }
 
-.skill-category {
-}
+  .skill-category {
+  }
 
-.skill-category ul {
-}
+  .skill-category ul {
+  }
 
-.skill-category li {
-}
+  .skill-category li {
+  }
 
-.language, .skill, .tool, .process, .design {
-}
+  .language, .skill, .tool, .process, .design {
+  }
 
-.language {
-}
+  .language {
+  }
 
-.skill {
-}
+  .skill {
+  }
 
-.tool {
-}
+  .tool {
+  }
 
-.process {
-}
+  .process {
+  }
 
-.design {
-}
+  .design {
+  }
 
-.skill-category ul .cert {
-}
+  .skill-category ul .cert {
+  }
 
-.about {
-}
+  .about {
+  }
 
-.about img {
-}
+  .about img {
+  }
 
-.about h2 {
-}
+  .about h2 {
+  }
 
-.contact h1 {
-}
+  .contact h1 {
+  }
 
-.contact-area {
-}
+  .contact-area {
+  }
 
-.contact-area .content-wrapper {
-}
+  .contact-area .content-wrapper {
+  }
 
-.social {
-}
+  .social {
+  }
 
-.social i {
-}
+  .social i {
+  }
 
-.copyright {
+  .copyright {
+  }
 }
 
 @media print,
