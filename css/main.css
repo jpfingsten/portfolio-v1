@@ -150,6 +150,11 @@ img {
 
 /******************** Mobile Styles ********************/
 
+nav {
+  display: flex;
+  justify-content: center;
+}
+
 nav ul {
   display: flex;
   justify-content: space-between;
@@ -157,6 +162,7 @@ nav ul {
   list-style: none;
   text-transform: uppercase;
   margin-top: 2rem;
+  width: 100%;
 }
 
 nav li {
@@ -417,140 +423,163 @@ nav .emphasize {
 /******************** Tablet Styles ********************/
 
 @media only screen and (min-width: 768px) {
-  /* Style adjustments for viewports that meet the condition */
+  .content-wrapper {
+    margin: 0 4rem;
+  }
+
+  nav ul {
+    width: 80%;
+  }
+
+  nav li {
+
+  }
+
+  .hero-area h1 {
+    margin-top: 5rem;
+  }
+
+  .hero-area p {
+    margin: 5rem 0;
+  }
+
+  .projects-area {
+    margin-top: 7.5rem;
+  }
+
+  .projects-block {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+
+  .projects-area h1 {
+    text-align: center;
+  }
+
+  .project-item {
+    width: 48%;
+  }
+
+  .project-header {
+
+  }
+
+  .project-header h2 {
+
+  }
+
+  .project-header i {
+
+  }
+
+  .project-header i:hover {
+
+  }
+
+  .project-description {
+
+  }
+
+  .project-skills-tools {
+
+  }
+
+  .skills-area h1, .skills-area h2 {
+    text-align: center;
+  }
+
+  .skill-category {
+
+  }
+
+  .skill-category ul {
+    justify-content: center;
+  }
+
+  .skill-category li {
+
+  }
+
+  .language, .skill, .tool, .process, .design {
+
+  }
+
+  .language {
+
+  }
+
+  .skill {
+
+  }
+
+  .tool {
+
+  }
+
+  .process {
+
+  }
+
+  .design {
+
+  }
+
+  .skill-category ul .cert {
+
+  }
+
+  .about {
+
+  }
+
+  .about .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about .content-wrapper p {
+    margin-top: 1.5rem;
+  }
+
+  .about img {
+    width: 50%;
+  }
+
+  .about h2 {
+
+  }
+
+  .contact h1 {
+
+  }
+
+  .contact-area {
+    width: 100%;
+  }
+
+  .contact-area .content-wrapper {
+    align-items: flex-start;
+  }
+
+  .social {
+    width: 25%;
+    justify-content: space-between;
+  }
+
+  .social i {
+
+  }
+
+  .copyright {
+
+  }
 }
 
-.content-wrapper {
-  margin: 0 4rem;
-}
 
-nav ul {
-
-}
-
-nav li {
-
-}
-
-.hero-area h1 {
-
-}
-
-.hero-area p {
-
-}
-
-.projects-area {
-
-}
-
-.projects-area h1 {
-
-}
-
-.project-header {
-
-}
-
-.project-header h2 {
-
-}
-
-.project-header i {
-
-}
-
-.project-header i:hover {
-
-}
-
-.project-description {
-
-}
-
-.project-skills-tools {
-
-}
-
-.skills-area h1 {
-
-}
-
-.skill-category {
-
-}
-
-.skill-category ul {
-
-}
-
-.skill-category li {
-
-}
-
-.language, .skill, .tool, .process, .design {
-
-}
-
-.language {
-
-}
-
-.skill {
-
-}
-
-.tool {
-
-}
-
-.process {
-
-}
-
-.design {
-
-}
-
-.skill-category ul .cert {
-
-}
-
-.about {
-
-}
-
-.about img {
-
-}
-
-.about h2 {
-
-}
-
-.contact h1 {
-
-}
-
-.contact-area {
-
-}
-
-.contact-area .content-wrapper {
-
-}
-
-.social {
-
-}
-
-.social i {
-
-}
-
-.copyright {
-
-}
 
 /******************** Desktop Styles ********************/
 
