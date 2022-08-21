@@ -208,6 +208,7 @@ nav .emphasize {
 
 .projects-area h1 {
   margin: 0;
+  text-align: center;
 }
 
 .projects-area img {
@@ -247,6 +248,7 @@ nav .emphasize {
 
 .skills-area h1 {
   margin: 2rem 0 0 0;
+  text-align: center;
 }
 
 .skill-category {
@@ -473,10 +475,6 @@ nav .emphasize {
     flex-flow: row wrap;
     justify-content: space-around;
     margin-top: 1rem;
-  }
-
-  .projects-area h1 {
-    text-align: center;
   }
 
   .project-item {
