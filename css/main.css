@@ -306,11 +306,18 @@ nav .emphasize {
   margin-top: 0;
 }
 
+.about .content-wrapper p {
+  margin-top: 1.5rem;
+}
+
 .contact h1 {
   word-wrap: break-word;
 }
 
 .contact-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 4rem;
 }
 
@@ -329,6 +336,15 @@ nav .emphasize {
 
 .social i {
   font-size: 2rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer .content-wrapper {
+  width: 100%;
 }
 
 .copyright {
@@ -452,7 +468,7 @@ nav .emphasize {
   .projects-block {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 1rem;
   }
 
@@ -477,10 +493,6 @@ nav .emphasize {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-
-  .about .content-wrapper p {
-    margin-top: 1.5rem;
   }
 
   .about img {
@@ -534,11 +546,11 @@ nav .emphasize {
     margin-top: 7rem;
   }
 
-  .projects-block {
-    flex-flow: row wrap;
+  .projects-area h1 {
   }
 
-  .projects-area h1 {
+  .projects-block {
+    flex-flow: row wrap;
   }
 
   .project-item {
@@ -552,15 +564,20 @@ nav .emphasize {
   }
 
   .about .content-wrapper {
-  }
-
-  .about .content-wrapper p {
+    flex-direction: row;
+    align-items: flex-start;
   }
 
   .about img {
+    width: 25vw;
+    margin: 0.3rem 2rem 0 0;
   }
 
   .contact-area {
+  }
+
+  .contact {
+    width: 50%;
   }
 
   .contact-area .content-wrapper {
