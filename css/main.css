@@ -178,12 +178,15 @@ nav li {
 nav .emphasize {
   padding: .25rem .75rem;
   border-radius: 20px;
-  color: #000;
   background-color: #CAC691;
 }
 
 #btn-contact {
   transition-duration: 500ms;
+}
+
+#btn-contact a {
+  color: black;
 }
 
 #btn-contact:hover {
