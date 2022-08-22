@@ -155,12 +155,6 @@ img {
 
 /******************** Mobile Styles ********************/
 
-/*.header .content-wrapper {
-  position: fixed;
-  top: 0;
-  background-color: #152A3E;
-}*/
-
 nav {
   display: flex;
   justify-content: center;
@@ -481,6 +475,10 @@ nav .emphasize {
     margin: 2rem 0;
   }
 
+  nav ul li {
+      font-size: 1rem;
+  }
+
   .hero-area {
     margin-top: 8rem;
   }
@@ -544,7 +542,11 @@ nav .emphasize {
 @media only screen and (min-width: 1024px) {
 
   .content-wrapper {
-    max-width: 924px;
+    width: 924px;
+  }
+
+  .header .content-wrapper {
+    width: 100%;
   }
 
   .header {
@@ -557,9 +559,13 @@ nav .emphasize {
     width: 100%;
   }
 
-  nav {
-    width: 50%;
+  nav ul {
+    width: 924px;
     justify-content: flex-end;
+  }
+
+  nav ul li {
+    margin-left: 3rem;
   }
 
   .hero-area p {
