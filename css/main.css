@@ -547,9 +547,6 @@ nav .emphasize {
     margin-top: 7rem;
   }
 
-  .projects-area h1 {
-  }
-
   .projects-block {
     flex-flow: row wrap;
   }
@@ -558,33 +555,18 @@ nav .emphasize {
     width: 30%;
   }
 
-  .skills-area h1, .skills-area h2 {
-  }
-
-  .skill-category ul {
-  }
-
   .about .content-wrapper {
     flex-direction: row;
     align-items: flex-start;
   }
 
   .about img {
-    width: 25vw;
+    width: 30vw;
     margin: 0.3rem 2rem 0 0;
-  }
-
-  .contact-area {
   }
 
   .contact {
     width: 66%;
-  }
-
-  .contact-area .content-wrapper {
-  }
-
-  .social {
   }
 }
 
