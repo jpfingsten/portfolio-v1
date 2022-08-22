@@ -210,16 +210,12 @@ nav .emphasize {
   margin-top: 7rem;
 }
 
-/*.hero-area h1 {
-  margin-top: 8rem;
-}*/
-
 .hero-area p {
   margin: 2rem 0;
 }
 
 .projects-area {
-  margin-top: 5rem;
+  margin-top: 7rem;
 }
 
 .projects-area h1 {
@@ -262,8 +258,11 @@ nav .emphasize {
   margin-top: 2rem;
 }
 
+.skills-area {
+    margin-top: 6rem;
+}
+
 .skills-area h1 {
-  margin: 2rem 0 0 0;
   text-align: center;
 }
 
@@ -508,6 +507,10 @@ nav .emphasize {
 
   .skill-category ul {
     justify-content: center;
+  }
+
+  .about {
+      margin-top: 6rem;
   }
 
   .about .content-wrapper {
