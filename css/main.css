@@ -477,11 +477,12 @@ nav .emphasize {
   }
 
   nav ul {
-    width: 80%;
+    width: 67%;
+    margin: 2rem 0;
   }
 
-  .hero-area h1 {
-    margin-top: 5rem;
+  .hero-area {
+    margin-top: 8rem;
   }
 
   .hero-area p {
