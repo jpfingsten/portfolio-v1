@@ -330,6 +330,19 @@ nav .emphasize {
   margin-top: 1.5rem;
 }
 
+#modal-link {
+    cursor: pointer;
+}
+
+
+.modal img {
+    margin: 0;
+}
+
+.modal::backdrop {
+  background: rgb(0 0 0 / 0.4);
+}
+
 .contact h1 {
   word-wrap: break-word;
 }
@@ -592,7 +605,7 @@ nav .emphasize {
     align-items: flex-start;
   }
 
-  .about img {
+  #headshot {
     width: 20vw;
     margin: 0.3rem 2rem 0 0;
   }
