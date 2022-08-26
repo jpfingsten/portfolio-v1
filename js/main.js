@@ -13,7 +13,7 @@ const navbar = document.querySelector('nav');
 
 const modal = document.querySelector("#modal");
 const openModal = document.getElementById("modal-link");
-const closeModal = document.querySelector(".close-button");
+const closeModal = document.querySelector(".close-x");
 
 openModal.addEventListener("click", () => {
   modal.showModal();

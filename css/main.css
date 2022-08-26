@@ -136,6 +136,7 @@ img {
 .highlight {
   background-color: #E9B14C;
   color: #152A3E;
+  padding: .25rem;
 }
 
 .underline {
@@ -330,10 +331,13 @@ nav .emphasize {
   margin-top: 1.5rem;
 }
 
+dialog {
+    width: fit-content;
+}
+
 #modal-link {
     cursor: pointer;
 }
-
 
 .modal img {
     margin: 0;
@@ -341,6 +345,14 @@ nav .emphasize {
 
 .modal::backdrop {
   background: rgb(0 0 0 / 0.4);
+}
+
+.close-x {
+   cursor: pointer;
+   font-size: 2rem;
+   right: 0;
+   position: absolute;
+   padding: 1.5rem 1.5rem 0 0;
 }
 
 .contact h1 {
@@ -381,9 +393,9 @@ nav .emphasize {
 }
 
 .copyright {
-    text-align: center;
-    margin: 5rem 0 1rem 0;
-    font-size: .75rem;
+  text-align: center;
+  margin: 5rem 0 1rem 0;
+  font-size: .75rem;
 }
 
 
