@@ -50,7 +50,7 @@
       <div class="content-wrapper">
         <h1>Hey, I'm Jasmine Pfingsten. <span class="whisper">(she/her)</span></h1>
         <p>
-          I'm a <span class="highlight">&nbsp;front-end web developer&nbsp;</span> on a mission to connect humans through tech. <a href="#about">
+          I'm a <span class="highlight">front-end web developer</span> on a mission to connect humans through tech. <a href="#about">
             <span class="underline">
               More
               about me &rarr;
@@ -196,11 +196,11 @@
     <a id="about"></a>
     <div class="about">
       <div class="content-wrapper">
-        <img src="img/headshot.png" alt="headshot" />
+        <img src="img/headshot.png" alt="headshot" id="headshot" />
         <div class="about-text">
           <h2>Developer and designer based in Richmond VA.</h2>
           <p>
-            I'm Jasmine Pfingsten, an imagination-driven developer excited by projects that use
+            I'm Jasmine Pfingsten &mdash; an imagination-driven developer excited by projects that use
             technology to improve lives and bring people closer together.
           </p>
           <p>
@@ -208,7 +208,11 @@
             opportunities to sharpen my back-end and design skillsets. Currently
             working as a web developer for Regimen Technologies.
           </p>
-          <p>When I'm not coding, I'm usually reading, watching Star Trek, or hangin' with the family.</p>
+          <p>When I'm not coding, I'm usually reading, watching Star Trek, or hangin' with <!--<a id="modal-link">-->the family.<!--</a>--></p>
+          <dialog class="modal" id="modal">
+            <img src="img/family.png" alt="A woman, man, and dog smiling in a candid family photo"
+            <a><i class="fa-solid fa-times close-x"></i></a>
+          </dialog>
         </div>
       </div>
     </div>
