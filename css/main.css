@@ -331,7 +331,7 @@ nav .emphasize {
   margin-top: 1.5rem;
 }
 
-dialog {
+/*dialog {
     width: fit-content;
 }
 
@@ -353,7 +353,7 @@ dialog {
    right: 0;
    position: absolute;
    padding: 1.5rem 1.5rem 0 0;
-}
+}*/
 
 .contact h1 {
   word-wrap: break-word;
