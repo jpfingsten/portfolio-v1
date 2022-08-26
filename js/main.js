@@ -8,5 +8,3 @@ const navbar = document.querySelector('nav');
   navbar.classList.remove('nav-active');
     }
 };
-
-
