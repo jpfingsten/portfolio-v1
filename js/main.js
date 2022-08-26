@@ -11,14 +11,14 @@ const navbar = document.querySelector('nav');
 
 // Opening and closing family picture modal
 
-//const modal = document.querySelector("#modal");
-//const openModal = document.getElementById("modal-link");
-//const closeModal = document.querySelector(".close-x");
+const modal = document.querySelector("#modal");
+const openModal = document.getElementById("modal-link");
+const closeModal = document.querySelector(".close-x");
 
-//openModal.addEventListener("click", () => {
-//  modal.showModal();
-//});
+openModal.addEventListener("click", () => {
+  modal.showModal();
+});
 
-//closeModal.addEventListener("click", () => {
-//  modal.close();
-//});
+closeModal.addEventListener("click", () => {
+  modal.close();
+});
