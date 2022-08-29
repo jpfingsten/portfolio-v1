@@ -331,6 +331,37 @@ nav .emphasize {
   margin-top: 1.5rem;
 }
 
+#modal-link {
+    cursor: pointer;
+}
+
+.modal-wrapper {
+    display: flex;
+}
+
+.modal {
+    max-width: 25vw;
+    border: none;
+}
+
+.modal img {
+    border: 15px solid white;
+    margin: 0;
+}
+
+.modal::backdrop {
+  background: rgb(0 0 0 / 0.4);
+}
+
+.close-x {
+  cursor: pointer;
+  font-size: 2rem;
+  color: #EEEFDA;
+  right: 0;
+  position: absolute;
+  padding: 1.5rem 1.7rem 0 0;
+}
+
 .contact h1 {
   word-wrap: break-word;
 }
