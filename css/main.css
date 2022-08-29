@@ -342,6 +342,7 @@ nav .emphasize {
 .modal {
     max-width: 25vw;
     border: none;
+    margin: auto;
 }
 
 .modal img {
