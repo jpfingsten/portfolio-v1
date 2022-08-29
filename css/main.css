@@ -340,7 +340,7 @@ nav .emphasize {
 }
 
 .modal {
-    max-width: 25vw;
+    max-width: 75vw;
     border: none;
     margin: auto;
 }
@@ -557,6 +557,10 @@ nav .emphasize {
     width: 50%;
   }
 
+  .modal {
+    max-width: 50vw;
+  }
+
   .contact-area {
     width: 100%;
   }
@@ -623,6 +627,10 @@ nav .emphasize {
   .about .content-wrapper {
     flex-direction: row;
     align-items: flex-start;
+  }
+
+  .modal {
+    max-width: 25vw;
   }
 
   #headshot {
