@@ -194,19 +194,6 @@ nav .emphasize {
   background-color: #CAC691;
 }
 
-#btn-contact {
-  transition-duration: 500ms;
-}
-
-#btn-contact a {
-  color: black;
-}
-
-#btn-contact:hover {
-  background-color: #E7E5CB;
-  transition-duration: 500ms;
-}
-
 .hero-area {
   margin-top: 7rem;
 }
