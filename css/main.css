@@ -187,6 +187,8 @@ nav {
 .hamburger {
   display: none;
   cursor: pointer;
+  background-color: #152A3E;
+  width: 100%;
 }
 
 .bar {
@@ -522,7 +524,15 @@ nav {
   } */
 
   .hamburger {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  .hamburger-icon {
+    position: fixed;
     display: block;
+    padding: 1rem 1rem 0 0;
   }
 
   .hamburger.active .bar:nth-child(2) {
@@ -537,17 +547,36 @@ nav {
     transform: translateY(-8px) rotate(-45deg);
   }
 
+  .navbar {
+    justify-content: flex-end;
+  }
+
   .nav-menu {
     position: fixed;
     flex-direction: column;
+    top: -100%;
+    text-align: center;
+    width: 100%;
+    transition: 0.3s;
   }
+
+  .nav-menu.active {
+    top: 0;
+    transition: 0.3s;
+  }
+
+  /* .nav-menu.active:nth-child(1) {
+    padding-top: 2rem;
+  }
+
+  /* TODO: Fill bar of transparency at top of active hamburger menu */
+  /* TODO: Make sure the JS scroll transition still works */
 
   .nav-item {
     padding: 1rem 0;
     background-color: #152A3E;
     border-bottom: 1px solid #EEEFDA;
     width: 100%;
-    text-align: center;
   }
 
   .hero-area {
