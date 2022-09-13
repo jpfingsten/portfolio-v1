@@ -172,23 +172,61 @@ nav {
 
 .nav-menu {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   list-style: none;
   text-transform: uppercase;
   margin: 1.5rem 0;
-  width: 86%;
+  position: fixed;
+  top: -100%;
+  transition: 0.3s;
+  width: 100%;
+  text-align: center;
+}
+
+.nav-menu .content-wrapper {
+  width: 100%;
+  margin: 0;
+  flex-direction: column;
+}
+
+.nav-menu.active {
+  top: 0;
+  transition: 0.3s;
+  margin: 0 0 1.5rem 0;
 }
 
 .nav-item {
   font-size: .9rem;
+  padding: 1rem 0;
+  background-color: #152A3E;
+  border-bottom: 1px solid #EEEFDA;
+  width: 100%;
 }
 
 .hamburger {
-  display: none;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
   cursor: pointer;
   background-color: #152A3E;
-  width: 100%;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.hamburger-icon {
+  position: fixed;
+  display: block;
+  padding: 1rem 1rem 0 0;
 }
 
 .bar {
@@ -523,61 +561,19 @@ nav {
       font-size: 1rem;
   } */
 
-  .hamburger {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-  }
-
-  .hamburger-icon {
-    position: fixed;
-    display: block;
-    padding: 1rem 1rem 0 0;
-  }
-
-  .hamburger.active .bar:nth-child(2) {
-    opacity: 0;
-  }
-
-  .hamburger.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-  }
-
-  .hamburger.active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-  }
-
   .navbar {
     justify-content: flex-end;
   }
 
-  .nav-menu {
-    position: fixed;
+  .nav-menu .content-wrapper {
     flex-direction: column;
-    top: -100%;
     text-align: center;
     width: 100%;
-    transition: 0.3s;
-  }
-
-  .nav-menu.active {
-    top: 0;
-    transition: 0.3s;
-  }
-
-  /* .nav-menu.active:nth-child(1) {
-    padding-top: 2rem;
   }
 
   /* TODO: Fill bar of transparency at top of active hamburger menu */
   /* TODO: Make sure the JS scroll transition still works */
-
-  .nav-item {
-    padding: 1rem 0;
-    background-color: #152A3E;
-    border-bottom: 1px solid #EEEFDA;
-    width: 100%;
-  }
+  /* TODO: Move mobile menu to mobile styles instead of tablet */
 
   .hero-area {
     margin-top: 8rem;
@@ -665,6 +661,23 @@ nav {
   .header .content-wrapper {
     justify-content: flex-end;
     width: 100%;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .nav-menu {
+    top: 0;
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+  }
+
+  .nav-item {
+    border: none;
+    padding: 1.5rem;
+    width: 15%;
   }
 
   /* nav ul {
