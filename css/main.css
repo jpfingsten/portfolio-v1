@@ -158,7 +158,11 @@ img {
 
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
   background-color: #152A3E;
   width: 100%;
 }
@@ -170,81 +174,38 @@ nav {
   transition: box-shadow 200ms linear;
 }
 
-.nav-menu {
+nav ul {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   list-style: none;
   text-transform: uppercase;
   margin: 1.5rem 0;
-  position: fixed;
-  top: -100%;
-  transition: 0.3s;
-  width: 100%;
-  text-align: center;
+  width: 86%;
 }
 
-.nav-menu .content-wrapper {
-  width: 100%;
-  margin: 0;
-  flex-direction: column;
-}
-
-.nav-menu.active {
-  top: 0;
-  transition: 0.3s;
-  margin: 0 0 1.5rem 0;
-}
-
-.nav-item {
+nav li {
   font-size: .9rem;
-  padding: 1rem 0;
-  background-color: #152A3E;
-  border-bottom: 1px solid #EEEFDA;
-  width: 100%;
 }
 
-.hamburger {
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
-  cursor: pointer;
-  background-color: #152A3E;
-}
-
-.hamburger.active .bar:nth-child(2) {
-  opacity: 0;
-}
-
-.hamburger.active .bar:nth-child(1) {
-  transform: translateY(8px) rotate(45deg);
-}
-
-.hamburger.active .bar:nth-child(3) {
-  transform: translateY(-8px) rotate(-45deg);
-}
-
-.hamburger-icon {
-  position: fixed;
-  display: block;
-  padding: 1rem 1rem 0 0;
-}
-
-.bar {
-  display: block;
-  width: 2rem;
-  height: 3px;
-  margin: 5px auto;
-  border-radius: 3px;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  background-color: #EEEFDA;
-}
-
-/* nav .emphasize {
+nav .emphasize {
   padding: .25rem .75rem;
   border-radius: 20px;
   background-color: #CAC691;
-} */
+}
+
+#btn-contact {
+  transition-duration: 500ms;
+}
+
+#btn-contact a {
+  color: black;
+}
+
+#btn-contact:hover {
+  background-color: #E7E5CB;
+  transition-duration: 500ms;
+}
 
 .hero-area {
   margin-top: 7rem;
@@ -255,7 +216,7 @@ nav {
 }
 
 .projects-area {
-  margin-top: 4rem;
+  margin-top: 7rem;
 }
 
 .projects-area h1 {
@@ -299,7 +260,7 @@ nav {
 }
 
 .skills-area {
-    margin-top: 3rem;
+    margin-top: 6rem;
 }
 
 .skills-area h1 {
@@ -355,7 +316,7 @@ nav {
 }
 
 .about {
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 .about img {
@@ -433,7 +394,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 4rem;
   }
 
   .contact-area .content-wrapper {
@@ -552,18 +513,17 @@ nav {
     margin: 0 4rem;
   }
 
-  .navbar {
-    justify-content: flex-end;
+  nav ul {
+    width: 67%;
+    margin: 2rem 0;
   }
 
-  .nav-menu .content-wrapper {
-    flex-direction: column;
-    text-align: center;
-    width: 100%;
+  nav ul li {
+      font-size: 1rem;
   }
 
   .hero-area {
-    margin-top: 6rem;
+    margin-top: 8rem;
   }
 
   .hero-area p {
@@ -571,7 +531,7 @@ nav {
   }
 
   .projects-area {
-    margin-top: 4.5rem;
+    margin-top: 7.5rem;
   }
 
   .projects-block {
@@ -594,7 +554,7 @@ nav {
   }
 
   .about {
-      margin-top: 4rem;
+      margin-top: 6rem;
   }
 
   .about .content-wrapper {
@@ -635,47 +595,28 @@ nav {
   .content-wrapper {
     width: 924px;
   }
-/*
+
   .header .content-wrapper {
     width: 100%;
-  } */
+  }
 
   .header {
     display: flex;
     justify-content: center;
   }
 
-  .nav-menu {
-    justify-content: center;
+  .header .content-wrapper {
+    justify-content: flex-end;
+    width: 100%;
   }
 
-  .nav-menu .content-wrapper {
-    flex-direction: row;
-    justify-content: flex-end;
+  nav ul {
     width: 924px;
-  }
-
-  /* .header .content-wrapper {
     justify-content: flex-end;
-    width: 100%;
-  } */
-
-  .hamburger {
-    display: none;
   }
 
-  .nav-menu {
-    position: static;
-    top: 0;
-    flex-direction: row;
-    width: 100%;
-    margin: 0;
-  }
-
-  .nav-item {
-    border: none;
-    padding: 1.5rem;
-    width: auto;
+  nav ul li {
+    margin-left: 3rem;
   }
 
   .hero-area p {
