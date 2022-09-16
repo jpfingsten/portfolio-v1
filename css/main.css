@@ -255,7 +255,7 @@ nav {
 }
 
 .projects-area {
-  margin-top: 7rem;
+  margin-top: 4rem;
 }
 
 .projects-area h1 {
@@ -299,7 +299,7 @@ nav {
 }
 
 .skills-area {
-    margin-top: 6rem;
+    margin-top: 3rem;
 }
 
 .skills-area h1 {
@@ -355,7 +355,7 @@ nav {
 }
 
 .about {
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 .about img {
@@ -433,7 +433,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
 
   .contact-area .content-wrapper {
@@ -552,15 +552,6 @@ nav {
     margin: 0 4rem;
   }
 
-  /* nav ul {
-    width: 67%;
-    margin: 2rem 0;
-  }
-
-  nav ul li {
-      font-size: 1rem;
-  } */
-
   .navbar {
     justify-content: flex-end;
   }
@@ -571,12 +562,8 @@ nav {
     width: 100%;
   }
 
-  /* TODO: Fill bar of transparency at top of active hamburger menu */
-  /* TODO: Make sure the JS scroll transition still works */
-  /* TODO: Move mobile menu to mobile styles instead of tablet */
-
   .hero-area {
-    margin-top: 8rem;
+    margin-top: 6rem;
   }
 
   .hero-area p {
@@ -584,7 +571,7 @@ nav {
   }
 
   .projects-area {
-    margin-top: 7.5rem;
+    margin-top: 4.5rem;
   }
 
   .projects-block {
@@ -607,7 +594,7 @@ nav {
   }
 
   .about {
-      margin-top: 6rem;
+      margin-top: 4rem;
   }
 
   .about .content-wrapper {
@@ -648,26 +635,37 @@ nav {
   .content-wrapper {
     width: 924px;
   }
-
+/*
   .header .content-wrapper {
     width: 100%;
-  }
+  } */
 
   .header {
     display: flex;
     justify-content: center;
   }
 
-  .header .content-wrapper {
+  .nav-menu {
+    justify-content: center;
+  }
+
+  .nav-menu .content-wrapper {
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 924px;
+  }
+
+  /* .header .content-wrapper {
     justify-content: flex-end;
     width: 100%;
-  }
+  } */
 
   .hamburger {
     display: none;
   }
 
   .nav-menu {
+    position: static;
     top: 0;
     flex-direction: row;
     width: 100%;
@@ -677,17 +675,8 @@ nav {
   .nav-item {
     border: none;
     padding: 1.5rem;
-    width: 15%;
+    width: auto;
   }
-
-  /* nav ul {
-    width: 924px;
-    justify-content: flex-end;
-  }
-
-  nav ul li {
-    margin-left: 3rem;
-  } */
 
   .hero-area p {
     margin: 2.5rem 0;
