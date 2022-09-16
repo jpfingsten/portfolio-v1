@@ -31,6 +31,10 @@ const modal = document.querySelector("#modal");
 const openModal = document.querySelector("#modal-link");
 const closeModal = document.querySelector(".close-x");
 
+// Start modal closed
+
+modal.close();
+
 openModal.addEventListener("click", () => {
   modal.showModal();
 });
