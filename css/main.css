@@ -240,12 +240,6 @@ nav {
   background-color: #EEEFDA;
 }
 
-/* nav .emphasize {
-  padding: .25rem .75rem;
-  border-radius: 20px;
-  background-color: #CAC691;
-} */
-
 .hero-area {
   margin-top: 7rem;
 }
@@ -635,14 +629,14 @@ nav {
   .content-wrapper {
     width: 924px;
   }
-/*
-  .header .content-wrapper {
-    width: 100%;
-  } */
 
   .header {
     display: flex;
     justify-content: center;
+  }
+
+  .navbar {
+    position: fixed;
   }
 
   .nav-menu {
@@ -654,11 +648,6 @@ nav {
     justify-content: flex-end;
     width: 924px;
   }
-
-  /* .header .content-wrapper {
-    justify-content: flex-end;
-    width: 100%;
-  } */
 
   .hamburger {
     display: none;

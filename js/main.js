@@ -1,25 +1,27 @@
 // Fixed nav bar transition
 
 const navbar = document.querySelector('.navbar');
+const navMenu = document.querySelector(".nav-menu");
 
   window.onscroll = () => {
-    if (window.scrollY > navbar.clientHeight) {
-  navbar.classList.add('nav-active');
+    if (window.scrollY > navbar.clientHeight || navMenu.classList.contains("active")) {
+  navMenu.classList.add('nav-active');
     } else {
-  navbar.classList.remove('nav-active');
+  navMenu.classList.remove('nav-active');
     }
 };
 
+// Hamburger menu for mobile devices
+
 const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
-const navLink = document.querySelector(".nav-link");
+const navLink = document.querySelectorAll(".nav-link");
 
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
   navMenu.classList.toggle("active");
 })
 
-document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
+navLink.forEach(n => n.addEventListener("click", () => {
   hamburger.classList.remove("active");
   navMenu.classList.remove("active");
 }))
