@@ -1,14 +1,39 @@
 // Fixed nav bar transition
 
+<<<<<<< HEAD
 const navbar = document.querySelector('nav');
+=======
+const navbar = document.querySelector('.navbar');
+const navMenu = document.querySelector(".nav-menu");
+
+>>>>>>> hamburger-menu
   window.onscroll = () => {
-    if (window.scrollY > navbar.clientHeight) {
-  navbar.classList.add('nav-active');
+    if (window.scrollY > navbar.clientHeight || navMenu.classList.contains("active")) {
+  navMenu.classList.add('nav-active');
     } else {
-  navbar.classList.remove('nav-active');
+  navMenu.classList.remove('nav-active');
     }
 };
 
+<<<<<<< HEAD
+=======
+// Hamburger menu for mobile devices
+
+const hamburger = document.querySelector(".hamburger");
+const navLink = document.querySelectorAll(".nav-link");
+
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
+})
+
+navLink.forEach(n => n.addEventListener("click", () => {
+  hamburger.classList.remove("active");
+  navMenu.classList.remove("active");
+}))
+
+
+>>>>>>> hamburger-menu
 // Opening and closing family picture modal
 
 const modal = document.querySelector("#modal");
