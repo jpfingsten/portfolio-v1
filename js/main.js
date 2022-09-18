@@ -1,12 +1,8 @@
 // Fixed nav bar transition
 
-<<<<<<< HEAD
-const navbar = document.querySelector('nav');
-=======
 const navbar = document.querySelector('.navbar');
 const navMenu = document.querySelector(".nav-menu");
 
->>>>>>> hamburger-menu
   window.onscroll = () => {
     if (window.scrollY > navbar.clientHeight || navMenu.classList.contains("active")) {
   navMenu.classList.add('nav-active');
@@ -15,8 +11,6 @@ const navMenu = document.querySelector(".nav-menu");
     }
 };
 
-<<<<<<< HEAD
-=======
 // Hamburger menu for mobile devices
 
 const hamburger = document.querySelector(".hamburger");
@@ -32,8 +26,6 @@ navLink.forEach(n => n.addEventListener("click", () => {
   navMenu.classList.remove("active");
 }))
 
-
->>>>>>> hamburger-menu
 // Opening and closing family picture modal
 
 const modal = document.querySelector("#modal");

@@ -595,24 +595,12 @@ nav .emphasize {
   .content-wrapper {
     width: 924px;
   }
-<<<<<<< HEAD
-
-  .header .content-wrapper {
-    width: 100%;
-  }
-=======
->>>>>>> hamburger-menu
 
   .header {
     display: flex;
     justify-content: center;
   }
 
-<<<<<<< HEAD
-  .header .content-wrapper {
-    justify-content: flex-end;
-    width: 100%;
-=======
   .navbar {
     position: fixed;
   }
@@ -629,7 +617,6 @@ nav .emphasize {
 
   .hamburger {
     display: none;
->>>>>>> hamburger-menu
   }
 
   nav ul {
