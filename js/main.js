@@ -5,9 +5,9 @@ const navMenu = document.querySelector(".nav-menu");
 
   window.onscroll = () => {
     if (window.scrollY > navbar.clientHeight || navMenu.classList.contains("active")) {
-  navMenu.classList.add('nav-active');
+  navbar.classList.add('nav-active');
     } else {
-  navMenu.classList.remove('nav-active');
+  navbar.classList.remove('nav-active');
     }
 };
 

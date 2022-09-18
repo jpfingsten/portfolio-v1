@@ -613,6 +613,7 @@ nav .emphasize {
     flex-direction: row;
     justify-content: flex-end;
     width: 924px;
+    margin: 0;
   }
 
   .hamburger {
