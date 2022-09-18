@@ -13,6 +13,8 @@ const navMenu = document.querySelector(".nav-menu");
 
 // Hamburger menu for mobile devices
 
+adding something
+
 const hamburger = document.querySelector(".hamburger");
 const navLink = document.querySelectorAll(".nav-link");
 
