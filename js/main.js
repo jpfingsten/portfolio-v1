@@ -5,9 +5,9 @@ const navMenu = document.querySelector(".nav-menu");
 
   window.onscroll = () => {
     if (window.scrollY > navbar.clientHeight || navMenu.classList.contains("active")) {
-  navbar.classList.add('nav-active');
+  navMenu.classList.add('nav-active');
     } else {
-  navbar.classList.remove('nav-active');
+  navMenu.classList.remove('nav-active');
     }
 };
 
@@ -25,6 +25,7 @@ navLink.forEach(n => n.addEventListener("click", () => {
   hamburger.classList.remove("active");
   navMenu.classList.remove("active");
 }))
+
 
 // Opening and closing family picture modal
 
