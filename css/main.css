@@ -667,6 +667,10 @@ nav {
     width: auto;
   }
 
+  .hero-area {
+    margin-top: 9rem;
+  }
+
   .hero-area p {
     margin: 2.5rem 0;
   }
