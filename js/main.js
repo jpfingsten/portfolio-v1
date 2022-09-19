@@ -31,10 +31,7 @@ document.addEventListener("keydown", (e) => {
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
   }
-  // if (e.target.value == 27) {
-  //
-  // }
-})
+});
 
 // Opening and closing family picture modal
 
