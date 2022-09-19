@@ -19,13 +19,22 @@ const navLink = document.querySelectorAll(".nav-link");
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
   navMenu.classList.toggle("active");
-})
+});
 
 navLink.forEach(n => n.addEventListener("click", () => {
   hamburger.classList.remove("active");
   navMenu.classList.remove("active");
-}))
+}));
 
+document.addEventListener("keydown", (e) => {
+  if (e.key == "Escape") {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+  }
+  // if (e.target.value == 27) {
+  //
+  // }
+})
 
 // Opening and closing family picture modal
 
