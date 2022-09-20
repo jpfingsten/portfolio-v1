@@ -687,6 +687,10 @@ nav {
     width: 30%;
   }
 
+  .skills-area {
+    margin-top: 6rem;
+  }
+
   .about .content-wrapper {
     flex-direction: row;
     align-items: flex-start;
