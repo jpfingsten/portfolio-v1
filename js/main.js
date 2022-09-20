@@ -2,12 +2,15 @@
 
 const navbar = document.querySelector('.navbar');
 const navMenu = document.querySelector(".nav-menu");
+const icnScrollUp = document.querySelector(".icn-scroll-up");
 
   window.onscroll = () => {
     if (window.scrollY > navbar.clientHeight || navMenu.classList.contains("active")) {
   navMenu.classList.add('nav-active');
+  icnScrollUp.classList.add('active')
     } else {
   navMenu.classList.remove('nav-active');
+  icnScrollUp.classList.remove('active');
     }
 };
 

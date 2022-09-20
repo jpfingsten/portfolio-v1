@@ -293,7 +293,7 @@ nav {
 }
 
 .skills-area {
-    margin-top: 3rem;
+  margin-top: 3rem;
 }
 
 .skills-area h1 {
@@ -461,6 +461,21 @@ nav {
     margin: 5rem 0 1rem 0;
     font-size: .75rem;
   }
+
+  .icn-scroll-up {
+    opacity: 0;
+    position: fixed;
+    right: 1.4rem;
+    bottom: .5rem;
+    font-size: 2rem;
+    transition: .3s;
+  }
+
+  .icn-scroll-up.active {
+    opacity: 1;
+    transition: .3s;
+  }
+
   /* ==========================================================================
    Helper classes
    ========================================================================== */
