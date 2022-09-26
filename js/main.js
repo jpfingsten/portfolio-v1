@@ -1,4 +1,4 @@
-// Fixed nav bar transition
+// Fixed nav bar transition + scroll up icon
 
 const navbar = document.querySelector('.navbar');
 const navMenu = document.querySelector(".nav-menu");
