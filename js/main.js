@@ -36,7 +36,7 @@ document.addEventListener("keydown", (e) => {
   }
 });
 
-// Opening and closing family picture modal
+// Opening and closing pup picture modal
 
 const modal = document.querySelector("#modal");
 const openModal = document.querySelector("#modal-link");
